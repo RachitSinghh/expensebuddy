@@ -1,0 +1,40 @@
+ExpenseBuddy/
+├── android/
+│   ├── app/
+│   ├── build.gradle
+│   └── ...
+├── ios/
+│   ├── AppDelegate.h
+│   ├── AppDelegate.m
+│   └── ...
+├── assets/ // Carries all the images that is being used in the app 
+│   │   ├── images/
+├── components/
+│   │   ├── Backbutton.js
+│   │   ├── EmptyList.js
+│   │   └── ExpenseCard.js
+│   │   └── Loading.js
+│   │   └── ScreenWrapper.js
+├── navigation/
+│   │   ├── AppNavigator.js
+├── screens/
+│   │   ├── WelcomeScreen.js
+│   │   ├── HomeScreen.js
+│   │   └── AddExpenseScreen.js
+│   │   └── SignInScreen.js
+│   │   └── SignUpScreen.js
+│   │   └── TripExpenseScreen.js
+│   │   └── AddTripExpense.js
+├── config/
+│   │   ├── Firebase.js
+├── redux/
+│   │   ├── slices/
+│   │       ├── user.js/
+│   │   └── store.js
+└── constants/
+│       ├── index.js // carries all the basic colors
+
+├── .gitignore
+├── App.js
+├── package.json
+└── README.md
